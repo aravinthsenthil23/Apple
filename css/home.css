@@ -1,0 +1,809 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:
+        "SF Pro Text",
+        "SF Pro Icons",
+        "Helvetica Neue",
+        Helvetica,
+        Arial,
+        sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    position: fixed;
+    margin-top: -15px;
+    z-index: 9999;
+    opacity: 0.90;
+    cursor: pointer;
+}
+
+nav>ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+
+    font-size: 12px;
+}
+
+.navAppleLogo {
+    margin-top: 12px;
+}
+
+.opening-img {
+    width: 100%;
+    height: 700px;
+    background-image: url("../images/HomeFrontImage.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -40px;
+    cursor: pointer;
+
+}
+
+.opening-img :first-child {
+    color: #000;
+    font-size: 53px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 430px;
+}
+
+.opening-img :nth-child(2) {
+    font-size: 27px;
+    text-align: center;
+    font-weight: 430;
+    margin-top: -40px;
+    color: #000;
+}
+
+.opening-img :last-child {
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 20px;
+    margin-left: 47.5%;
+    border: 1px solid #0077ED;
+    background-color: #fff;
+    color: #0077ED;
+}
+
+.opening-img :last-child:hover {
+    background-color: #0077ED;
+    color: #fff;
+    cursor: pointer;
+}
+
+.second-img {
+    width: 100%;
+    height: 650px;
+    background-image: url("../images/iphone17-img.jpg");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.second-img :first-child {
+    font-size: 53px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 40px;
+    color: white;
+}
+
+.second-img :nth-child(2) {
+    font-size: 27px;
+    text-align: center;
+    font-weight: 430;
+    margin-top: -40px;
+    color: white;
+}
+
+.second-img :last-child :first-child {
+    padding: 10px 17px;
+    font-size: 15px;
+    font-weight: 100;
+    border-radius: 20px;
+    margin-left: 43.5%;
+    border: 1px solid #0077ED;
+    background-color: #0077ED;
+    color: #fff;
+    cursor: pointer;
+}
+
+.second-img :last-child :first-child:hover {
+    opacity: 0.85;
+}
+
+.second-img :last-child :nth-child(2) {
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 20px;
+    margin-left: 1%;
+    border: 1px solid #0077ED;
+    background-color: #000000;
+    color: #0077ED;
+}
+
+.second-img :last-child :nth-child(2):hover {
+    background-color: #0077ED;
+    color: #000;
+    cursor: pointer;
+}
+
+.third-img {
+    width: 100%;
+    height: 720px;
+    background-image: url("../images/iphone17-2.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: -40px;
+    cursor: pointer;
+}
+
+.third-img :first-child {
+    font-size: 53px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.third-img :nth-child(2) {
+    font-size: 27px;
+    text-align: center;
+    font-weight: 430;
+    margin-top: -40px;
+    color: rgb(0, 0, 0);
+}
+
+.third-img :last-child :first-child {
+    padding: 10px 17px;
+    font-size: 15px;
+    font-weight: 100;
+    border-radius: 20px;
+    margin-left: 43.5%;
+    border: 1px solid #0077ED;
+    background-color: #0077ED;
+    color: #fff;
+}
+
+.third-img :last-child :first-child:hover {
+    opacity: 0.85;
+}
+
+.third-img :last-child :nth-child(2) {
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 20px;
+    margin-left: 1%;
+    border: 1px solid #0077ED;
+    background-color: #ffffff;
+    color: #0077ED;
+}
+
+.third-img :last-child :nth-child(2):hover {
+    background-color: #0077ED;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.flex-container {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.fourth-img {
+    display: flex;
+    flex-direction: row;
+    margin-top: -25px;
+}
+
+.flex-container>.fourth-img> :first-child {
+    background-image: url("../images/iphone17-3.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 937px;
+    height: 580px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.flex-container>.fourth-img> :last-child {
+    background-image: url("../images/iwatch1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 937px;
+    height: 580px;
+}
+
+.flex-container>.fourth-img> :first-child {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.flex-container>.fourth-img> :first-child :first-child {
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+}
+
+.flex-container>.fourth-img> :first-child :nth-child(2) {
+    font-size: 20px;
+    font-weight: 430;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    margin-top: -35px;
+}
+
+.flex-container>.fourth-img> :first-child :last-child :first-child {
+    padding: 10px 17px;
+    font-size: 15px;
+    font-weight: 100;
+    border-radius: 20px;
+    border: 1px solid #0077ED;
+    background-color: #0077ED;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.flex-container>.fourth-img> :first-child :last-child :nth-child(2) {
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 20px;
+    margin-left: 1%;
+    border: 1px solid #0077ED;
+    background-color: #ffffff;
+    color: #0077ED;
+}
+
+.flex-container>.fourth-img> :first-child :last-child :nth-child(2):hover {
+    background-color: #0077ED;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.flex-container>.fourth-img> :nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.flex-container>.fourth-img> :nth-child(2) :first-child {
+    font-size: 32px;
+    width: 250px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-left: 345px;
+    margin-top: 40px;
+}
+
+.flex-container>.fourth-img> :nth-child(2) :nth-child(2) {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin-top: 7px;
+}
+
+.flex-container>.fourth-img> :nth-child(2) :last-child {
+    margin-top: -40px;
+    margin-left: -360px;
+}
+
+.flex-container>.fourth-img> :nth-child(2) :last-child :first-child {
+    width: 120px;
+    padding: 10px 17px;
+    font-size: 15px;
+    font-weight: 100;
+    border-radius: 20px;
+    border: 1px solid #0077ED;
+    background-color: #0077ED;
+    color: #fff;
+    cursor: pointer;
+}
+
+.flex-container>.fourth-img> :nth-child(2) :last-child :nth-child(2) {
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 20px;
+    margin-left: 1%;
+    font-weight: 300;
+    border: 1px solid #0077ED;
+    background-color: #ffffff;
+    color: #0077ED;
+}
+
+.flex-container>.fourth-img> :nth-child(2) :last-child :nth-child(2):hover {
+    background-color: #0077ED;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.fifth-img {
+    display: flex;
+    flex-direction: row;
+    margin-top: -25px;
+}
+
+.fifth-img> :first-child {
+    background-image: url("../images/airbuds1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 937px;
+    height: 580px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.fifth-img> :last-child {
+    background-image: url("../images/watchs1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 937px;
+    height: 580px;
+    margin-top: 40px;
+}
+
+.fifth-img> :first-child {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.fifth-img> :first-child :first-child {
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+}
+
+.fifth-img> :first-child :nth-child(2) {
+    font-size: 20px;
+    font-weight: 430;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    margin-top: -35px;
+}
+
+.fifth-img> :first-child :last-child :first-child {
+    padding: 10px 17px;
+    font-size: 15px;
+    font-weight: 100;
+    border-radius: 20px;
+    border: 1px solid #0077ED;
+    background-color: #0077ED;
+    color: #fff;
+    cursor: pointer;
+}
+
+.fifth-img> :first-child :last-child :nth-child(2) {
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 20px;
+    margin-left: 1%;
+    border: 1px solid #0077ED;
+    background-color: #ffffff;
+    color: #0077ED;
+}
+
+.fifth-img> :first-child :last-child :nth-child(2):hover {
+    background-color: #0077ED;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.fifth-img> :nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.fifth-img> :nth-child(2) :first-child {
+    font-size: 32px;
+    width: 220px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-left: 345px;
+    margin-top: 400px;
+}
+
+.fifth-img> :nth-child(2) :nth-child(2) {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin-top: 7px;
+}
+
+.fifth-img> :nth-child(2) :last-child {
+    margin-top: -400px;
+    margin-left: -360px;
+}
+
+.fifth-img> :nth-child(2) :last-child :first-child {
+    width: 120px;
+    padding: 10px 17px;
+    font-size: 15px;
+    font-weight: 100;
+    border-radius: 20px;
+    border: 1px solid #0077ED;
+    background-color: #0077ED;
+    color: #fff;
+    cursor: pointer;
+}
+
+.fifth-img> :nth-child(2) :last-child :nth-child(2) {
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 20px;
+    margin-left: 1%;
+    border: 1px solid #0077ED;
+    background-color: #ffffff;
+    color: #0077ED;
+}
+
+.fifth-img> :nth-child(2) :last-child :nth-child(2):hover {
+    background-color: #0077ED;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.sixth-img {
+    display: flex;
+    flex-direction: row;
+    margin-top: -25px;
+}
+
+.sixth-img> :first-child {
+    background-image: url("../images/macbookair.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 937px;
+    height: 580px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.sixth-img> :last-child {
+    background-image: url("../images/iphones1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 937px;
+    height: 580px;
+    margin-top: 40px;
+}
+
+.sixth-img> :first-child {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sixth-img> :first-child :first-child {
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+}
+
+.sixth-img> :first-child :nth-child(2) {
+    font-size: 20px;
+    font-weight: 430;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    margin-top: -30px;
+}
+
+.sixth-img> :first-child :last-child :first-child {
+    padding: 10px 17px;
+    font-size: 15px;
+    font-weight: 100;
+    border-radius: 20px;
+    border: 1px solid #0077ED;
+    background-color: #0077ED;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sixth-img> :first-child :last-child :nth-child(2) {
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 20px;
+    margin-left: 1%;
+    border: 1px solid #0077ED;
+    background-color: #ffffff;
+    color: #0077ED;
+}
+
+.sixth-img> :first-child :last-child :nth-child(2):hover {
+    background-color: #0077ED;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.sixth-img> :nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sixth-img> :nth-child(2) :first-child {
+    font-size: 32px;
+    width: 160px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-left: 380px;
+    margin-top: 30px;
+}
+
+.sixth-img> :nth-child(2) :nth-child(2) {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+
+.sixth-img> :nth-child(2)>button {
+    width: 150px;
+    margin-left: 390px;
+    padding: 10px 17px;
+    border: 1px solid #0077ED;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #0077ED;
+    cursor: pointer;
+}
+
+
+
+
+
+/* General body styling */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    /* Dark background for a premium feel */
+    color: #fff;
+    overflow-x: hidden;
+
+}
+
+/* Main container for the slider */
+.slider-container {
+    margin-left: 10px;
+    margin-top: 10px;
+    position: relative;
+    width: 98vw;
+    /* Full viewport width */
+    height: 80vh;
+    /* Adjust height as needed */
+    overflow: hidden;
+    /* Crucial: Hides slides outside the viewport */
+}
+
+/* Vignette effect to darken the edges and make text more readable */
+.slider-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    z-index: 2;
+    /* Sits above images but below content */
+    pointer-events: none;
+    /* Allows clicking through the overlay */
+}
+
+/* Wrapper for all slides */
+.slider-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* Individual slide styling */
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    /* All slides are invisible by default */
+    transition: opacity 1.2s ease-in-out;
+    /* The fade animation */
+    z-index: 1;
+
+    /* Center the content within the slide */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* The currently visible slide */
+.slide.active {
+    opacity: 0.8;
+    /* Make the active slide visible */
+}
+
+/* --- ADD YOUR IMAGES HERE --- */
+.slide-1 {
+    background-image: url('../images/slide1.jpg');
+}
+
+.slide-2 {
+    background-image: url('../images/slide2.jpg');
+}
+
+.slide-3 {
+    background-image: url('../images/slide3.jpg');
+}
+
+.slide-4 {
+    background-image: url('../images/slide4.jpg');
+}
+
+.slide-5 {
+    background-image: url('../images/slide5.jpg');
+}
+
+.slide-6 {
+    background-image: url('../images/slide6.jpg');
+}
+
+.slide-7 {
+    background-image: url('../images/slide7.jpg');
+}
+
+.slide-8 {
+    background-image: url('../images/slide8.jpg');
+}
+
+/* Content inside each slide */
+.slide-content {
+    position: relative;
+    z-index: 3;
+    max-width: 80%;
+    /* Text shadow makes it readable on any background */
+    text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.slide-content .logo {
+    width: 40px;
+    height: auto;
+    filter: brightness(0) invert(1);
+    /* Makes the black logo white */
+}
+
+.slide-content h2 {
+    font-size: 3.5rem;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.slide-content p {
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: 400;
+}
+
+/* Navigation dots container */
+.dots-container {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    z-index: 9999;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dot:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.dot.active {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .slide-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .slide-content p {
+        font-size: 1rem;
+    }
+}
+
+footer {
+    width: 100%;
+    height: 70%;
+    background-color: #f5f5f7;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+footer :first-child {
+    width: 70%;
+    font-size: 12px;
+    color: #6e6e73;
+    margin-left: 135px;
+    margin-top: 20px;
+}
+
+hr {
+    width: 50%;
+    border: none;
+    border-top: 1px solid #d2d2d7;
+    margin-top: -10px;
+}
+
+footer :last-child {
+    font-size: 12px;
+    color: #6e6e73;
+    margin-left: 135px;
+    margin-top: -10px;
+}
+
+
+.slide-up {
+    opacity: 0;
+    /* Move the element 50px down */
+    transform: translateY(50px);
+    /* Add a smooth transition */
+    transition: opacity 0.3s ease-out, transform 0.8s ease-out;
+}
+
+/* 2. Final (visible) state */
+.slide-up.active {
+    opacity: 1;
+    /* Move the element back to its original position */
+    transform: translateY(0);
+}

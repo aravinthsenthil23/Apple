@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:
+        "SF Pro Text",
+        "SF Pro Icons",
+        "Helvetica Neue",
+        Helvetica,
+        Arial,
+        sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    position: fixed;
+    margin-top: -40px;
+    z-index: 9999;
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+nav>ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-size: 12px;
+}
+
+.navAppleLogo {
+    margin-top: 5px;
+}
+.underNav{
+    margin-top: 40px;
+    width: 100%;
+    height:600px;
+    background-image: url('../images/support/imgi_1_hero-banner-support-home.image.large_2x.jpg');
+    background-size: contain;
+    background-position: center;
+
+}
+
+.apple-support{
+    text-align: center;
+    margin-top: 40px;
+}
+.apple-support h1{
+    font-size: 70px;
+    font-weight: 600;
+}
+
+
+.product-nav {
+    margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 60px; /* Space between items */
+            margin-bottom: 80px;
+            width: 100%;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+            transition: opacity 0.2s;
+            width: 100px; /* Fixed width for alignment */
+        }
+
+        .nav-item:hover {
+            opacity: 0.7;
+        }
+
+        .nav-icon {
+            height: 90px; /* Adjust based on image quality */
+            width: auto;
+            margin-bottom: 12px;
+            object-fit: contain;
+        }
+
+        .nav-label {
+            font-size: 16px;
+            color: #1d1d1f;
+            font-weight: 500;
+        }
+
+        /* --- SECTION 2: Support Cards (Bottom) --- */
+        .support-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 Equal columns */
+            gap: 24px;
+            width: 100%;
+            margin-left: 400px;
+            max-width: 1120px;
+        }
+
+        .support-card {
+            background-color: #f5f5f7; /* Light Gray Background */
+            border-radius: 18px;
+            padding: 40px 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            min-height: 110px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .support-card:hover {
+            background-color: #ebebeb; /* Slightly darker on hover */
+        }
+
+        .card-icon {
+            width: 48px;
+            height: 48px;
+            margin-bottom: 20px;
+        }
+
+        .card-link {
+            font-size: 17px;
+            color: #0071e3; /* Apple Blue */
+            text-decoration: none;
+            line-height: 1.4;
+        }
+
+        .card-link:hover {
+            text-decoration: underline;
+        }
+
+        /* --- Responsive Design --- */
+        @media (max-width: 768px) {
+            .product-nav {
+                gap: 20px;
+            }
+            .support-grid {
+                grid-template-columns: 1fr; /* Stack cards on mobile */
+            }
+            .nav-item {
+                width: 60px;
+            }
+            .nav-icon {
+                height: 40px;
+            }
+        }
+
+        footer {
+    width: 100%;
+    height: 70%;
+    background-color: #f5f5f7;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+footer :first-child {
+    width: 70%;
+    font-size: 12px;
+    color: #6e6e73;
+    margin-left: 135px;
+    margin-top: 20px;
+}
+
+hr {
+    width: 50%;
+    border: none;
+    border-top: 1px solid #d2d2d7;
+    margin-top: -10px;
+}
+
+footer :last-child {
+    font-size: 12px;
+    color: #6e6e73;
+    margin-left: 135px;
+    margin-top: -10px;
+}

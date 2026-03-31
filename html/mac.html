@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac</title>
+    <link rel="stylesheet" href="../css/mac.css">
+    <link rel="shortcut icon" href="../images/download.svg" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><img src="../images/download.svg" alt="" class="navAppleLogo"></li>
+            <li><a href="../home.html">Home</a></li>
+            <li><a href="../html/mac.html">Mac</a></li>
+            <li><a href="../html/iPhone.html">Iphone</a></li>
+            <li><a href="../html/watch.html">Watch</a></li>
+            <li><a href="../html/support.html">Support</a></li>
+        </ul>
+    </nav>
+    <div class="nav-under-bar">
+        <ul>
+            <li onclick="link1()"><img src="../images/mac-images/underNav1.svg" alt="" class="content slide-up">
+                <p>MacBook Air</p>
+            </li>
+            <li onclick="link2()"><img src="../images/mac-images/underNav2.svg" alt="" class="content slide-up">
+                <p>MacBook Pro</p>
+            </li>
+            <li onclick="link3()"><img src="../images/mac-images/underNav3.svg" alt="" class="content slide-up">
+                <p>iMac</p>
+            </li>
+            <li onclick="link4()"><img src="../images/mac-images/underNav4.svg" alt="" class="content slide-up">
+                <p>Mac mini</p>
+            </li>
+            <li onclick="link5()"><img src="../images/mac-images/underNav5.svg" alt="" class="content slide-up">
+                <p>Mac Studio</p>
+            </li>
+            <li onclick="link6()"><img src="../images/mac-images/underNav6.svg" alt="" class="content slide-up">
+                <p>Mac Pro</p>
+            </li>
+            <li onclick="link7()"><img src="../images/mac-images/underNav7.svg" alt="" class="content slide-up">
+                <p>Compare</p>
+            </li>
+            <li onclick="link8()"><img src="../images/mac-images/underNav8.svg" alt="" class="content slide-up">
+                <p>Displays</p>
+            </li>
+            <li onclick="link9()"><img src="../images/mac-images/underNav9.svg" alt="" class="content slide-up">
+                <p>Accessories</p>
+            </li>
+            <li onclick="link10()"><img src="../images/mac-images/underNav10.svg" alt="" class="content slide-up">
+                <p>Tahoe</p>
+            </li>
+            <li onclick="link11()"><img src="../images/mac-images/underNav11.svg" alt="" class="content slide-up">
+                <p>Shop Mac</p>
+            </li>
+        </ul>
+    </div>
+    <div class="navunder2">
+        <p>Last chance to get up to ₹10000 instant cashback on selected Mac models with eligible cards. Plus up to 12
+            months of No Cost EMI.-*<span onclick="link12()" style="color: #028cee; cursor: pointer;">Shop Mac></span>
+        </p>
+    </div>
+    <div class="mac">
+        <p>Mac</p>
+    </div>
+    <main class="product-showcase" class="reveal-on-scroll">
+        <nav class="product-filters">
+            <button class="filter-btn active" data-filter="all">All products</button>
+            <button class="filter-btn" data-filter="laptop">Laptops</button>
+            <button class="filter-btn" data-filter="desktop">Desktops</button>
+            <button class="filter-btn" data-filter="display">Displays</button>
+        </nav>
+
+        <section class="product-grid" id="scrollContainer">
+            <article class="product-card" data-category="laptop">
+                <div class="product-image">
+                    <img class="content slide-up" onclick="link13()"
+                        src="../images/mac-images/imgi_27_mba_13_15_08deb8525.jpg" alt="MacBook Air">
+                </div>
+                <div class="product-info">
+                    <div class="color-swatches">
+                        <span style="background-color: #3B424C;"></span>
+                        <span style="background-color: #E3E4E6;"></span>
+                        <span style="background-color: #F0E5D3;"></span>
+                        <span style="background-color: #C7C8CA;"></span>
+                    </div>
+                    <h3>MacBook Air 13” and 15”</h3>
+                    <p class="chip-info">M4 chip</p>
+                    <p class="description">Strikingly thin and fast so you can work, play or create anywhere.</p>
+                    <div class="pricing">
+                        <p>From ₹99900.00</p>
+                        <p class="monthly">or ₹7492.00/mo. for 12 mo.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.apple.com/in/macbook-air/" class="btn btn-primary">Learn more</a>
+                        <a href="https://www.apple.com/in/shop/buy-mac/macbook-air" class="btn btn-link">Buy</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card" data-category="laptop">
+                <div class="product-image">
+                    <img class="content slide-up" onclick="link14()"
+                        src="../images/mac-images/imgi_28_mbp_14_16_3386877fa.jpg" alt="MacBook Pro">
+                </div>
+                <div class="product-info">
+                    <div class="color-swatches">
+                        <span style="background-color: #1A1A1A; border: 1px solid #444;"></span>
+                        <span style="background-color: #E3E4E6;"></span>
+                    </div>
+                    <h3>MacBook Pro 14” and 16”</h3>
+                    <p class="chip-info">M5, M4 Pro or M4 Max chip</p>
+                    <p class="description">The most advanced Mac laptops for demanding workflows.</p>
+                    <div class="pricing">
+                        <p>From ₹169900.00</p>
+                        <p class="monthly">or ₹13325.00/mo. for 12 mo.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.apple.com/in/macbook-pro/" class="btn btn-primary">Learn more</a>
+                        <a href="https://www.apple.com/in/shop/buy-mac/macbook-pro" class="btn btn-link">Shop</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card" data-category="desktop">
+                <div class="product-image">
+                    <img class="content slide-up" onclick="link15()"
+                        src="../images/mac-images/imgi_29_imac_24_13b716162.jpg" alt="iMac">
+                </div>
+                <div class="product-info">
+                    <div class="color-swatches">
+                        <span style="background-color: #3A70D5;"></span>
+                        <span style="background-color: #64B58A;"></span>
+                        <span style="background-color: #E76881;"></span>
+                        <span style="background-color: #F4A83D;"></span>
+                        <span style="background-color: #B283B7;"></span>
+                        <span style="background-color: #A9B8C3;"></span>
+                    </div>
+                    <h3>iMac</h3>
+                    <p class="chip-info">M4 chip</p>
+                    <p class="description">A stunning all-in-one desktop for creativity and productivity.</p>
+                    <div class="pricing">
+                        <p>From ₹134900.00</p>
+                        <p class="monthly">or ₹10825.00/mo. for 12 mo.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.apple.com/in/imac/" class="btn btn-primary">Learn more</a>
+                        <a href="https://www.apple.com/in/shop/buy-mac/imac" class="btn btn-link">Buy</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card" data-category="desktop">
+                <div class="product-image">
+                    <img class="content slide-up" onclick="link16()"
+                        src="../images/mac-images/imgi_30_mac_mini_f7987f207.jpg" alt="Mac mini">
+                </div>
+                <div class="product-info">
+                    <h3>Mac mini</h3>
+                    <p class="chip-info">M4 or M4 Pro chip</p>
+                    <p class="description">The mini-est, most affordable Mac with mighty performance.</p>
+                    <div class="pricing">
+                        <p>From ₹59900.00</p>
+                        <p class="monthly">or ₹4658.00/mo. for 12 mo.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.apple.com/in/mac-mini/" class="btn btn-primary">Learn more</a>
+                        <a href="https://www.apple.com/in/shop/buy-mac/mac-mini" class="btn btn-link">Buy</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card" data-category="desktop">
+                <div class="product-image">
+                    <img class="content slide-up" onclick="link17()"
+                        src="../images/mac-images/imgi_31_mac_studio_6988bc9f9.jpg">
+                </div>
+                <div class="product-info">
+                    <h3>Mac Studio</h3>
+                    <p class="chip-info">M4 Max or M3 Ultra chip</p>
+                    <p class="description">Powerful performance and extensive connectivity for pro workflows.</p>
+                    <div class="pricing">
+                        <p>From ₹214900.00**</p>
+                        <p class="monthly">or ₹17075.00/mo. for 12 mo.*</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.apple.com/in/mac-studio/" class="btn btn-primary">Learn more</a>
+                        <a href="https://www.apple.com/in/shop/buy-mac/mac-studio" class="btn btn-link">Buy</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card" data-category="desktop">
+                <div class="product-image">
+                    <img class="content slide-up" onclick="link18()"
+                        src="../images/mac-images/imgi_32_mac_pro_e2935b773.jpg">
+                </div>
+                <div class="product-info">
+                    <h3>Mac Pro</h3>
+                    <p class="chip-info">M2 Ultra chip</p>
+                    <p class="description">A pro workstation with PCIe expansion for demanding workflows.</p>
+                    <div class="pricing">
+                        <p>From ₹729900.00**</p>
+                        <p class="monthly">or ₹66221.00/mo. for 12 mo.**</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.apple.com/in/mac-pro/" class="btn btn-primary">Learn more</a>
+                        <a href="https://www.apple.com/in/shop/buy-mac/mac-pro" class="btn btn-link">Buy</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card" data-category="display">
+                <div class="product-image">
+                    <img class="content slide-up" onclick="link19()"
+                        src="../images/mac-images/imgi_33_studio_display_01283acca.jpg" alt="Studio Display">
+                </div>
+                <div class="product-info">
+                    <h3>Studio Display</h3>
+                    <p class="chip-info">A 5K Retina display with stellar camera and audio.</p>
+                    <div class="pricing">
+                        <p>From ₹159900.00</p>
+                        <p class="monthly">or ₹14507.00/mo. for 12 mo.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.apple.com/in/studio-display/" class="btn btn-primary">Learn more</a>
+                        <a href="https://www.apple.com/in/shop/buy-mac/apple-studio-display"
+                            class="btn btn-link">Buy</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card" data-category="display">
+                <div class="product-image">
+                    <img class="content slide-up" onclick="link20()"" src="
+                        ../images/mac-images/imgi_34_pro_display_c1cbfb6ee.jpg" alt="Pro Display XDR">
+                </div>
+                <div class="product-info">
+                    <h3>Pro Display XDR</h3>
+                    <p class="chip-info">An advanced 6K XDR display for pro workflows.</p>
+                    <div class="pricing">
+                        <p>From ₹449900.00</p>
+                        <p class="monthly">or ₹40818.00/mo. for 12 mo.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.apple.com/in/pro-display-xdr/" class="btn btn-primary">Learn more</a>
+                        <a href="https://www.apple.com/in/shop/buy-mac/pro-display-xdr" class="btn btn-link">Buy</a>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+        <div class="scroll-btn">
+            <img src="../images/mac-images/download (1).svg" alt="" width="40px" height="40px" id="scroll-left">
+            <img src="../images/mac-images/download.svg" alt="" width="40px" height="40px" id="scroll-right">
+        </div>
+    </main>
+    <div class="shop-mac">
+        <p class="content slide-up">Why Apple is the best<br>
+            place to buy Mac.</p>
+        <a href="https://www.apple.com/in-edu/shop/buy-mac" class="content slide-up">Shop Mac ></a>
+
+        <section class="product-grid" class="product-grid1" id="scrollContainer1" class="mac-shop1">
+            <article class="product-card product-card1" onclick="link21()"
+                style="background-color: #fff; margin-left: 100px; width: 370px; height: 295px; margin-top: 10px;">
+                <div class="product-image" class="product-image1">
+                    <img class="content slide-up" src="../images/mac-images/imgi_19_creditcard_elevated_b70609ee9.svg"
+                        alt="MacBook Air" width="40px" height="40px" style="margin-top: -100px;margin-left: -260px;">
+                    <h3 class="content slide-up"
+                        style=" text-align: start; font-size: 25px; margin-top: -130px; margin-left: 35px;">Monthly
+                        payment <br>options are available</h3>
+                    <p class="content slide-up" style="text-align: left; margin-left: 35px;opacity: 0.8;">Choose an easy
+                        way to finance with
+                        <br>convenient payment options.
+                    </p>
+                    <img src="../images/mac-images/download (2).svg" alt="" width="30px" height="30px"
+                        style="color: #000000; margin-top: 22px; margin-left: 320px;  height: fit-content;">
+                </div>
+                <div class="product-info">
+                </div>
+            </article>
+            <article class="product-card" onclick="link22()"
+                style="background-color: #fff; margin-left: 100px; width: 370px; height: 295px; margin-top: 10px;">
+                <div class="product-image">
+                    <img class="content slide-up"
+                        src="../images/mac-images/imgi_20_desktopcomputer.and.macbook_elevated_960eac0cc.svg"
+                        alt="MacBook Air" width="40px" height="40px" style="margin-top: -100px;margin-left: -260px;">
+                    <h3 class="content slide-up"
+                        style=" text-align: start; font-size: 25px; margin-top: -130px; margin-left: 35px;">Customise
+                        your Mac.</h3>
+                    <p class="content slide-up" style="text-align: left; margin-left: 35px;opacity: 0.8;">Choose your
+                        chip,memory,<br>storage,
+                        even colour.</p>
+                    <img src="../images/mac-images/download (2).svg" alt="" width="30px" height="30px"
+                        style="color: #000000; margin-top: 75px; margin-left: 320px;  height: fit-content;">
+                </div>
+                <div class="product-info">
+                </div>
+            </article>
+            <article class="product-card" onclick="link23()"
+                style="background-color: #fff; margin-left: 100px; width: 370px; height: 295px; margin-top: 10px;">
+                <div class="product-image">
+                    <img class="content slide-up"
+                        src="../images/mac-images/imgi_21_graduationcap_elevated_e406e6e68.svg" alt="MacBook Air"
+                        width="40px" height="40px" style="margin-top: -100px;margin-left: -260px;">
+                    <h3 class="content slide-up"
+                        style=" text-align: start; font-size: 25px; margin-top: -130px; margin-left: 35px;">Save on a
+                        new Mac<br> with education<br>pricing.</h3>
+                    <p class="content slide-up" style="text-align: left; margin-left: 35px;opacity: 0.8;">Available to
+                        college students and
+                        educators.****</p>
+                    <img src="../images/mac-images/download (2).svg" alt="" width="30px" height="30px"
+                        style="color: #000000; margin-top: 17px; margin-left: 320px;  height: fit-content;">
+                </div>
+                <div class="product-info">
+                </div>
+            </article>
+            <article class="product-card" onclick="link24()"
+                style="background-color: #fff; margin-left: 100px; width: 370px; height: 295px; margin-top: 10px;">
+                <div class="product-image">
+                    <img class="content slide-up" src="../images/mac-images/imgi_22_truck.box_elevated_d74c82127.svg"
+                        alt="MacBook Air" width="40px" height="40px" style="margin-top: -100px;margin-left: -260px;">
+                    <h3 class="content slide-up"
+                        style=" text-align: start; font-size: 25px; margin-top: -130px; margin-left: 35px;">Get flexible
+                        delivery<br>and easy pickup.</h3>
+                    <p class="content slide-up" style="text-align: left; margin-left: 35px;opacity: 0.8;">Get free
+                        delivery or pickup at<br>your
+                        Apple Store.</p>
+                    <img src="../images/mac-images/download (2).svg" alt="" width="30px" height="30px"
+                        style="color: #000000; margin-top: 50px; margin-left: 320px;  height: fit-content;">
+                </div>
+                <div class="product-info">
+                </div>
+            </article>
+            <article class="product-card" onclick="link25()"
+                style="background-color: #fff; margin-left: 100px; width: 370px; height: 295px; margin-top: 10px;">
+                <div class="product-image">
+                    <img class="content slide-up"
+                        src="../images/mac-images/imgi_23_person.macwindow_elevated_53b58701b.svg" alt="MacBook Air"
+                        width="40px" height="40px" style="margin-top: -100px;margin-left: -260px;">
+                    <h3 class="content slide-up"
+                        style=" text-align: start; font-size: 25px; margin-top: -130px; margin-left: 35px;">Shop live
+                        with<br>a Specialist</h3>
+                    <p class="content slide-up" style="text-align: left; margin-left: 35px;opacity: 0.8;">Let us guide
+                        you live over video<br>and
+                        answer all of your<br>questions.</p>
+                    <img src="../images/mac-images/download (2).svg" alt="" width="30px" height="30px"
+                        style="color: #000000; margin-top: 27px; margin-left: 320px;  height: fit-content;">
+                </div>
+                <div class="product-info">
+                </div>
+            </article>
+            <article class="product-card" onclick="link26()"
+                style="background-color: #fff; margin-left: 100px; width: 370px; height: 295px; margin-top: 10px;">
+                <div class="product-image">
+                    <img class="content slide-up"
+                        src="../images/mac-images/imgi_24_person.line.dotted.person_elevated_83a5eeeb4.svg"
+                        alt="MacBook Air" width="40px" height="40px" style="margin-top: -100px;margin-left: -260px;">
+                    <h3 class="content slide-up"
+                        style=" text-align: start; font-size: 25px; margin-top: -130px; margin-left: 35px;">Join an
+                        online<br>Personal Setup<br>session.</h3>
+                    <p class="content slide-up" style="text-align: left; margin-left: 35px;opacity: 0.8;">Talk
+                        one-to-one with a<br>Specialist to
+                        set up your Mac<br>and discover new features.</p>
+                    <img src="../images/mac-images/download (2).svg" alt="" width="30px" height="30px"
+                        style="color: #000000; margin-top: -7px; margin-left: 320px;  height: fit-content;">
+                </div>
+                <div class="product-info">
+                </div>
+            </article>
+            <article class="product-card" onclick="link27()"
+                style="background-color: #fff; margin-left: 100px; width: 370px; height: 295px; margin-top: 10px;">
+                <div class="product-image">
+                    <img class="content slide-up"
+                        src="../images/mac-images/imgi_25_arrow.2.squarepath.devices_elevated_fac99429a.svg"
+                        alt="MacBook Air" width="40px" height="40px" style="margin-top: -100px;margin-left: -260px;">
+                    <h3 class="content slide-up"
+                        style=" text-align: start; font-size: 25px; margin-top: -130px; margin-left: 35px;">Save
+                        with<br>Apple Trade In.</h3>
+                    <p class="content slide-up" style="text-align: left; margin-left: 35px;opacity: 0.8;">Get credit
+                        towards your next<br>Mac
+                        when you trade in an<br>eligible device at an Apple<br>Store.</p>
+                    <img src="../images/mac-images/download (2).svg" alt="" width="30px" height="30px"
+                        style="color: #000000; margin-top: 5px; margin-left: 320px;  height: fit-content;">
+                </div>
+                <div class="product-info">
+                </div>
+            </article>
+            <article class="product-card" onclick="link28()"
+                style="background-color: #fff; margin-left: 100px; width: 370px; height: 295px; margin-top: 10px; margin-right: 50px;">
+                <div class="product-image">
+                    <img class="content slide-up"
+                        src="../images/mac-images/imgi_26_app.applestore_elevated_8102e7f71.svg" alt="MacBook Air"
+                        width="40px" height="40px" style="margin-top: -100px;margin-left: -260px;">
+                    <h3 class="content slide-up"
+                        style=" text-align: start; font-size: 25px; margin-top: -130px; margin-left: 35px;">Explore a
+                        shopping<br>experience designed<br>around you.</h3>
+                    <p class="content slide-up" style="text-align: left; margin-left: 35px;opacity: 0.8;">Use the Apple
+                        Store app to get<br>a
+                        more personal way to shop.</p>
+                    <img src="../images/mac-images/download (2).svg" alt="" width="30px" height="30px"
+                        style="color: #000000; margin-top: 17px; margin-left: 320px;  height: fit-content;">
+                </div>
+                <div class="product-info">
+                </div>
+            </article>
+
+        </section>
+        <div class="scroll-btn1">
+            <img src="../images/mac-images/download (1).svg" alt="" width="40px" height="40px" id="scroll-left1">
+            <img src="../images/mac-images/download.svg" alt="" width="40px" height="40px" id="scroll-right1">
+        </div>
+    </div>
+    <div class="get_to_know">
+        <p class="content slide-up">Get to know Mac.</p>
+
+
+
+
+        <div class="carousel-wrapper">
+
+            <div class="carousel-track" id="scrollContainer2">
+
+                <div class="card dark" style="margin-left: 100px;">
+                    <div class="card-content"
+                        style="background-image: url('../images/mac-images/imgi_35_fc_performance_73f99203e.jpg');">
+                        <div>
+                            <div class="eyebrow">Performance and Battery Life</div>
+                            <div class="headline">Go fast. Go far.</div>
+                        </div>
+                        <button class="plus-btn">+</button>
+                    </div>
+                </div>
+
+                <div class="card dark bg-img-2">
+                    <div class="card-content"
+                        style="background-image: url('../images/mac-images/imgi_36_fc_intelligence_0bb1dcbc6.jpg');">
+                        <div>
+                            <div class="eyebrow">Built for AI</div>
+                            <div class="headline">Smart. Secure.<br>On device.</div>
+                        </div>
+                        <button class="plus-btn">+</button>
+                    </div>
+                </div>
+
+                <div class="card light bg-img-3">
+                    <div class="card-content"
+                        style="background-image: url('../images/mac-images/imgi_37_fc_macos_627ff5fd8.jpg');">
+                        <div>
+                            <div class="eyebrow">macOS and Apple Intelligence</div>
+                            <div class="headline">Easy to use.<br>Easy to love.</div>
+                        </div>
+                        <button class="plus-btn">+</button>
+                    </div>
+                </div>
+
+                <div class="card light bg-img-4">
+                    <div class="card-content"
+                        style="background-image: url('../images/mac-images/imgi_38_fc_iphone_03ad8efae.jpg');">
+                        <div>
+                            <div class="eyebrow">Mac + iPhone</div>
+                            <div class="headline">Together they<br>work wonders.</div>
+                        </div>
+                        <button class="plus-btn">+</button>
+                    </div>
+                </div>
+
+                <div class="card light" style="background: #0071e3;">
+                    <div class="card-content"
+                        style="background-image: url('../images/mac-images/imgi_39_fc_compatibility_5f1b749c5.jpg');">
+                        <div>
+                            <div class=" eyebrow">Compatibility</div>
+                            <div class="headline">Mac runs your<br>favourite apps.
+                            </div>
+                        </div>
+                        <button class="plus-btn">+</button>
+                    </div>
+                </div>
+
+                <div class="card dark" style="background: #0071e3;">
+                    <div class="card-content"
+                        style="background-image: url('../images/mac-images/imgi_40_fc_security_1094ec3fa.jpg');">
+                        <div>
+                            <div class=" eyebrow">Privacy and Security</div>
+                            <div class="headline">Your business is<br>nobody else's.
+                            </div>
+                        </div>
+                        <button class="plus-btn">+</button>
+                    </div>
+                </div>
+
+                <div class="card dark" style="background: #0071e3;">
+                    <div class="card-content"
+                        style="background-image: url('../images/mac-images/imgi_41_fc_durability_ba71c7486.jpg');">
+                        <div>
+                            <div class=" eyebrow">Durability</div>
+                            <div class="headline">Built to stand the<br>test of time.
+                            </div>
+                        </div>
+                        <button class="plus-btn">+</button>
+                    </div>
+                </div>
+
+                <div class="card dark" style="background: #0071e3; ">
+                    <div class="card-content"
+                        style="background-image: url('../images/mac-images/imgi_42_fc_values_6806d612e.jpg');">
+                        <div>
+                            <div class=" eyebrow">Apple Values</div>
+                            <div class="headline">Our values drive<br>everything we do.
+                            </div>
+                        </div>
+                        <button class="plus-btn">+</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="scroll-btn2">
+            <img src="../images/mac-images/download (1).svg" alt="" width="40px" height="40px" id="scroll-left2">
+            <img src="../images/mac-images/download.svg" alt="" width="40px" height="40px" id="scroll-right2">
+        </div>
+
+
+    </div>
+    <div class="help-me">
+        <p class="content slide-up">Help me choose.</p>
+        <div class="question" onclick="link29()">
+            <div>
+                <p class="content slide-up">Answer a few questions to find<br>the best Mac for you.</p>
+                <button class="content slide-up">Get started</button>
+            </div>
+            <img class="content slide-up" src="../images/mac-images/imgi_44_help_me_choose_cd3b96ccf.png" alt="">
+        </div>
+    </div>
+    <div class="essentials">
+        <p class="content slide-up">Mac essentials.</p>
+        <div>
+            <div class="accessories" onclick="link30()">
+                <p class="content slide-up">Mac accessories</p>
+                <p class="keyboard" class="content slide-up">Explore keyboards, mice and other essentials</p>
+                <a href="https://www.apple.com/in/shop/mac/accessories" class="btn btn-link"
+                    class="content slide-up">Shop Mac accessories </a>
+                <img class="content slide-up" src="../images/mac-images/imgi_45_accessories_4b76d806e.png" alt="">
+            </div>
+            <div class="accessories" onclick="link31()">
+                <p class="content slide-up">Studio Display</p>
+                <p class="keyboard" class="content slide-up">The 68.29 cm (27") 5K Retina display pairs<br>beautifully
+                    with any Mac.</p>
+                <a href="https://www.apple.com/in/studio-display/" class="btn btn-link" class="content slide-up">Learn
+                    more </a>
+                <img class="content slide-up" src="../images/mac-images/imgi_46_display_985e632ba.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="unlock" class="content slide-up">
+        <div>
+            <p class="content slide-up">Unlock the world of Apple</p>
+            <a href="https://www.apple.com/in/macos/continuity/" class="btn btn-link" class="content slide-up"
+                class="learn">Learn who Apple devices work better Together </a>
+        </div>
+
+
+
+        <div class="feature-container">
+
+            <div class="accordion-wrapper">
+
+                <div class="accordion-item active" onclick="activateTab(0)">
+                    <div class="accordion-header">
+                        <h3 class="accordion-title" class="content slide-up">Mac and iPhone</h3>
+                        <svg class="icon" viewBox="0 0 24 24">
+                            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z" />
+                        </svg>
+                    </div>
+                    <div class="accordion-content">
+                        <p class="content slide-up">Answer calls or messages from your iPhone directly on your Mac. See
+                            and control what’s on your iPhone from your Mac with iPhone Mirroring. Use Universal
+                            Clipboard to copy images, video or text from your iPhone, then paste into another app on
+                            your nearby Mac. And thanks to iCloud, you can access your files from either your iPhone or
+                            your Mac. And so much more.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item" onclick="activateTab(1)">
+                    <div class="accordion-header">
+                        <h3 class="accordion-title" class="content slide-up">Mac and iPad</h3>
+                        <svg class="icon" viewBox="0 0 24 24">
+                            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z" />
+                        </svg>
+                    </div>
+                    <div class="accordion-content">
+                        <p class="content slide-up">
+                            Sketch on your iPad and have it appear instantly on your Mac. Or use your iPad as a second
+                            display, so you can work on one screen while you reference the other. You can even start
+                            something on your iPad — like a presentation or an email — and continue it on your Mac.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item" onclick="activateTab(2)">
+                    <div class="accordion-header">
+                        <h3 class="accordion-title" class="content slide-up">Mac and Apple Watch</h3>
+                        <svg class="icon" viewBox="0 0 24 24">
+                            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z" />
+                        </svg>
+                    </div>
+                    <div class="accordion-content">
+                        <p class="content slide-up">Automatically log in to your Mac just by wearing your Apple Watch
+                            with Auto Unlock — no password typing required. Your Watch also acts as an instant
+                            authenticator, letting you approve app installations, unlock settings, and confirm Apple Pay
+                            purchases on your Mac with a quick double-click of the side button. If you ever misplace
+                            your computer, you can even use the Find Devices app on your Watch to play a sound and
+                            locate your Mac instantly.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="image-column">
+                <img src="../images/iphone_images/imgi_40_mac_iphone_9ddc981d2.jpg" class="feature-image active"
+                    alt="Mac and iPhone">
+
+                <img src="../images/iphone_images/imgi_41_mac_ipad_effbcd246.jpg" class="feature-image"
+                    alt="iPhone and Watch">
+
+                <img src="../images/iphone_images/imgi_42_mac_watch_88ba658d7.jpg" class="feature-image"
+                    alt="iPhone and AirPods">
+            </div>
+
+        </div>
+    </div>
+    <div class="link-list">
+        <p class="content slide-up">Mac</p>
+        <div class="list">
+            <div>
+                <ul>
+                    <li>
+                        <p class="content slide-up">Explore Mac</p>
+                    </li>
+                    <li>
+                        <h2 class="content slide-up" onclick="link32()">Explore All Mac</h2>
+                    </li>
+                    <li>
+                        <h2 class="content slide-up" onclick="link13()">MacBook Air</h2>
+                    </li>
+                    <li>
+                        <h2 class="content slide-up" onclick="link14()">MacBook Pro</h2>
+                    </li>
+                    <li>
+                        <h2 class="content slide-up" onclick="link15()">iMac</h2>
+                    </li>
+                    <li>
+                        <h2 class="content slide-up" onclick="link16()">Mac mini</h2>
+                    </li>
+                    <li>
+                        <h2 class="content slide-up" onclick="link17()">Mac Studio</h2>
+                    </li>
+                    <li>
+                        <h2 class="content slide-up" onclick="link18()">Mac Pro</h2>
+                    </li>
+                    <li>
+                        <h2 class="content slide-up" onclick="link8()">Displays</h2>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <p class="content slide-up">Shop Mac</p>
+                    </li>
+                    <li>
+                        <h3 class="content slide-up" onclick="link22()">Shop Mac</h3>
+                    </li>
+                    <li>
+                        <h3 class="content slide-up" onclick="link30()">Mac Accessories</h3>
+                    </li>
+                    <li>
+                        <h3 class="content slide-up" onclick="link21()">Ways to Buy</h3>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <p class="content slide-up">More from Mac</p>
+                    </li>
+                    <li>
+                        <h3 class="content slide-up" onclick="link33()">Mac Support</h3>
+                    </li>
+                    <li>
+                        <h3 class="content slide-up" onclick="link34()">AppleCare</h3>
+                    </li>
+                    <li>
+                        <h3 class="content slide-up" onclick="link35()">macOS Tahoe</h3>
+                    </li>
+                    <li>
+                        <h3 class="content slide-up" onclick="link36()">Apple Intelligence</h3>
+                    </li>
+                    <li>
+                        <h3 class="content slide-up" onclick="link37()">Apps by Apple</h3>
+                    </li>
+                    <li>
+                        <h3 class="content slide-up" onclick="link38()">Even better with iPhone</h3>
+                    </li>
+                    <li>
+                        <h3 class="content slide-up" onclick="link39()">iCloud</h3>
+                    </li>
+                    <li>
+                        <h3 class="content slide-up" onclick="link40()">Mac for Business</h3>
+                    </li>
+                    <li>
+                        <h3 class="content slide-up" onclick="link41()">Education</h3>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <p class="content slide-up">* Includes instant cashback and No Cost EMI.<br><br>
+
+                No Cost EMI is available with the purchase of an <a href="https://www.apple.com/in/shop/ways-to-buy"
+                    style="color: #252525;">eligible product</a> made using qualifying cards on 3- or
+                6-month tenures from most leading card issuers. Monthly pricing is rounded to the nearest rupee. Exact
+                pricing will be provided by your card issuer, subject to your card issuer’s terms and conditions.
+                Minimum order spend applies as per your card issuer’s threshold. No Cost EMI is not available to
+                business customers and cannot be combined with Apple Store for Education or Corporate Employee Purchase
+                Plan pricing. Card eligibility is subject to terms and conditions between you and your card issuer.
+                Offer may be revised or withdrawn at any time without any prior notice. <br><a
+                    href="https://www.apple.com/in/shop/browse/financing/terms" style="color: #252525;">Terms
+                    apply</a>.<br><br>
+
+                Instant cashback is available with the purchase of an a <a
+                    href="https://www.apple.com/in/shop/ways-to-buy" style="color: #252525;">eligible product</a> with
+                qualifying American
+                Express, Axis Bank and ICICI Bank cards only. Minimum transaction value of ₹10001 applies. <a
+                    href="https://www.apple.com/in/shop/ways-to-buy" style="color: #252525;">Click here</a> to
+                see instant cashback amounts and eligible devices. Instant cashback is available for up to two orders
+                per rolling 90-day period with an eligible card. Card eligibility is subject to terms and conditions
+                between you and your card issuer. Total transaction value is calculated after any trade-in credit or
+                eligible discount is applied. Any subsequent order adjustment(s) or cancellation(s) may result in
+                instant cashback being recalculated, and any refund may be adjusted to account for instant cashback
+                clawback; this may result in no refund being made to you. Offer may be revised or withdrawn at any time
+                without any prior notice. <a href="https://www.apple.com/in/shop/browse/financing/terms"
+                    style="color: #252525;">Additional terms apply</a>. Instant cashback is not available to business
+                customers and cannot be combined with Apple Store for Education or Corporate Employee Purchase Plan
+                pricing. Multiple separate orders cannot be combined for instant cashback.<br><br>
+                ** Listed pricing is Maximum Retail Price (inclusive of all taxes).<br><br>
+                *** No Cost EMI is available with the purchase of an <a href="https://www.apple.com/in/shop/ways-to-buy"
+                    style="color: #252525;">eligible product</a> made using qualifying cards on 3-
+                or 6-month tenures from most leading card issuers. Monthly pricing is rounded to the nearest rupee.
+                Exact pricing will be provided by your card issuer, subject to your card issuer’s terms and conditions.
+                Minimum order spend applies as per your card issuer’s threshold. No Cost EMI is not available to
+                business customers and cannot be combined with Apple Store for Education or Corporate Employee Purchase
+                Plan pricing. Card eligibility is subject to terms and conditions between you and your card issuer.
+                Offer may be revised or withdrawn at any time without any prior notice. <a
+                    href="https://www.apple.com/in/shop/browse/financing/terms" style="color: #252525;">Terms
+                    apply.</a><br><br>
+                **** Apple Education Pricing is available to current and newly accepted college students and their
+                parents, as well as teachers and staff at all levels. For more information, visit
+                <a href="https://www.apple.com/in-edu/store" style="color: #252525;">apple.com/in-edu/store.</a><br><br>
+                ◊ Available payment types may differ between Apple Stores and Apple Store Online.<br><br>
+                Mac, iPad and Apple Watch trade-in is available only in-store in India. Apple Retail Online in India
+                does not offer trade-in for Mac, iPad and Apple Watch. Trade‑in values will vary based on the condition,
+                year and configuration of your eligible trade‑in device. Not all devices are eligible for credit. You
+                must be at least the age of majority to be eligible to trade in for credit. Trade‑in value may be
+                applied towards a qualifying new device purchase. Actual value awarded is based on receipt of a
+                qualifying device matching the description provided when estimate was made. Sales tax may be assessed on
+                full value of a new device purchase. In-store trade‑in requires presentation of a valid photo ID (local
+                law may require saving this information). Some stores may have additional requirements. Apple or
+                trade-in partners reserve the right to refuse, cancel or limit the quantity of any trade‑in transaction
+                for any reason. More details are available from Apple’s <a
+                    href="https://www.apple.com/in/legal/sales-support/trade-in/in/" style="color: #252525;">trade‑in
+                    partner</a> for trade‑in and recycling of
+                eligible devices. Restrictions and limitations may apply.<br><br>
+                Software and content may be sold separately. Title availability is subject to change.<br><br>
+                Testing conducted by Apple from August through October 2024 using pre-production 16″ MacBook Pro systems
+                with A⁠p⁠p⁠l⁠e⁠ ⁠M⁠4⁠ ⁠P⁠r⁠o⁠, 14‑core CPU, 20‑core GPU, 48GB of RAM and 512GB SSD. Wireless web battery
+                life tested by browsing 25 popular websites while connected to Wi-Fi. Video streaming battery life
+                tested with 1080p content in Safari while connected to Wi-Fi. All systems tested with display brightness
+                set to 8 clicks from the bottom and keyboard backlight off. Battery life varies by use and
+                configuration. See <a href="https://www.apple.com/in/batteries/"
+                    style="color: #252525;">apple.com/in/batteries</a> for more information.<br><br>
+                Apple Intelligence is available in beta. Some features may not be available in all regions or languages.
+                For feature and language availability and system requirements, see <a
+                    href="https://support.apple.com/en-in/121115"
+                    style="color: #252525;">support.apple.com/121115.</a><br><br>
+                Available on Mac computers with Apple silicon and Intel-based Mac computers with a T2 Security Chip.
+                Requires that your iPhone and Mac are signed in with the same A⁠p⁠p⁠l⁠e⁠ ⁠A⁠c⁠c⁠o⁠u⁠n⁠t using two-factor
+                authentication, your iPhone and Mac are near each other and have Bluetooth and Wi-Fi turned on, and your
+                Mac is not using AirPlay or Sidecar. Some iPhone features (e.g. camera and microphone) are not
+                compatible with iPhone Mirroring.<br><br>
+                Requires that your iPhone, with an active carrier plan, and Mac are signed in with the same Apple
+                Account, your iPhone and Mac are near each other, signed in to FaceTime with the same Apple Account,
+                have Wi‑Fi turned on, and are connected to the same network. An external microphone or headset is
+                required for Mac Studio, Mac mini and Mac Pro.<br><br>
+                Handoff requires an iPhone or iPad with iOS 8 or later or iPadOS.<br><br>
+                Some features may not be available in all regions or all languages.<br><br>
+                Some features require an Apple Account, compatible hardware and compatible internet access or cellular
+                network; additional fees and terms m⁠a⁠y⁠ ⁠a⁠p⁠p⁠l⁠y⁠.<br><br>
+                Some features require specific hardware and software. For more information, see
+                <a href="https://support.apple.com/en-in/108046"
+                    style="color: #252525;">support.apple.com/en-in/108046</a>.<br><br>
+                Stellarium image of the M31 galaxy by Lee, Ang (HG731GZ). Creative Commons Attribution L⁠i⁠c⁠e⁠n⁠s⁠e⁠
+                ⁠3⁠.⁠0⁠.<br><br>
+            </p>
+        </div>
+        <hr class="content slide-up">
+        <p class="content slide-up">Copyright © 2025 Aravinth . All rights reserved.</p>
+
+    </footer>
+</body>
+<script src="../js/mac.js"></script>
+
+</html>
