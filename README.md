@@ -6,7 +6,7 @@
 
 A high-fidelity landing page clone of the official Apple website. This project replicates Apple's iconic minimalist design, premium aesthetic, and smooth user interface using vanilla web technologies.
 
-**🔗 Live Demo:** [Insert Your Deployment Link Here]
+**🔗 Live Demo:** [https://appyclone.netlify.app/]
 
 ---
 
@@ -39,19 +39,19 @@ As seen in **image_90287d.png**, the project is organized into modular directori
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/apple-clone.git](https://github.com/your-username/apple-clone.git)
+    git clone [https://github.com/aravinthsenthil23/Apple.git](https://github.com/aravinthsenthil23/Apple.git)
     ```
 2.  **Navigate to the folder:**
     ```bash
-    cd apple-clone
+    cd Apple
     ```
 3.  **Run the project:**
     Open `home.html` in your browser. For the best experience, use the **Live Server** extension in VS Code.
 
 ## 🤝 Let's Connect
 
-*   **LinkedIn:** [Your LinkedIn Profile]
-*   **GitHub:** [@your-username](https://github.com/your-username)
+*   **LinkedIn:** www.linkedin.com/in/senthilaravinth
+*   **GitHub:** [@aravinthsenthil23](https://github.com/aravinthsenthil23)
 *   **Portfolio:** [personal-portfolio-aravinth.netlify.app](https://personal-portfolio-aravinth.netlify.app/)Based on the structure shown in **image_90287d.png**, here is the properly formatted `README.md` for your **Apple Website Clone**.
 
 ---
